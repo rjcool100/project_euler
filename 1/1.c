@@ -1,9 +1,6 @@
 #include <stdio.h>
 
 int main(void) {
-	// your code goes here
-
-
     //used the sum of n terms to determine sum of terms from 3,5,15 till the last multiple before 9999 
     //and then add the sum of three and five and subtract the sum of 15
 	int n=999;
