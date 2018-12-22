@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(void) {
-    //getting all highest powers of a prime before max and multiplying them
+    //geting the nth prime
     int n=100;
     int sum=0,squaresum=0;
     
