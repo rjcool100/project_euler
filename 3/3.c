@@ -17,8 +17,6 @@ int largestPrime(long int number){
 int main(void) {
     //this takes a lot of time, i need to brush up my maths i guess 
 	long int num=600851475143;
-   
-	
 	printf("%d",largestPrime(num));
 	return 0;
 }
