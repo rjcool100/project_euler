@@ -8,7 +8,7 @@ int main(void){
     int hundreds=7;
     int thousands=8;
     int sum=0;
-    for(int i=1;i<1000;i++){
+    for(int i=1;i<=1000;i++){
         int first=i%10;
         int second=((i%100)-first)/10;
         int third=((i%1000)-(second*10)-first)/100;
@@ -25,7 +25,7 @@ int main(void){
             sum+=tens[second]+ones[third];
         }
     }
-    sum+=thousands;
+    sum+=thousands+3;
     printf("%d\n", sum);
     return 0;
 }
